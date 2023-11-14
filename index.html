@@ -11,24 +11,25 @@
         height: 1000vh;
       }
       span {
-        background-color: tomato;
+        background-color: yellowgreen;
+        padding: 5px;
+        border-radius: 10px;
       }
-      span:nth-child(2n + 3) {
-        background-color: teal;
+      p span {
+        color: white;
+      }
+      p + span {
+        text-decoration: underline;
       }
     </style>
   </head>
   <body>
-    <span>hello</span>
-    <span>hello</span>
-    <span>hello</span>
-    <span>hello</span>
-    <span>hello</span>
-    <span>hello</span>
-    <span>hello</span>
-    <span>hello</span>
-    <span>hello</span>
-    <span>hello</span>
-    <span>hello</span>
+    <div>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod commodi
+        esequi ipsam odio dolorem. <span>inside</span>
+      </p>
+      <span>hello</span>
+    </div>
   </body>
 </html>
