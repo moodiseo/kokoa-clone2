@@ -3,35 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
+    <title>The Nico Times</title>
     <link rel="stylesheet" href="style.css" />
     <style>
       body {
         margin: 20px;
+        height: 1000vh;
       }
-      span {
-        background-color: teal;
-      }
-      .tomato {
-        background-color: tomato;
-      }
-      .teal {
-        background-color: teal;
-      }
-      .btn {
+      div {
+        width: 300px;
+        height: 300px;
         color: white;
-        padding: 5px 10px;
-        border-radius: 5px;
+      }
+      #green{
+        background-color: teal;
+        position: fixed;
+        opacity: 0.2;
+      }
+      #different{
+        background-color: wheat;
       }
     </style>
   </head>
   <body>
-    <span class="btn teal">hello</span>
-    <span class="btn tomato">hello</span>
-    <span class="btn teal">hello</span>
-    <span class="btn tomato">hello</span>
-    <span class="btn teal">hello</span>
-    <span class="btn tomato">hello</span>
-    <span class="btn teal">hello</span>
-  </body>
+    <div id="green"></div>
+    <div id="different"></div>
 </html>
